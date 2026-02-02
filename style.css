@@ -147,7 +147,7 @@ body{
     transform: translate(-50%, -50%);
     max-width: 30em;
     width: 50%;
-    height: 100%;
+    height: 30%;
     /* z-index: -1; */
 }
 .grid{
@@ -316,4 +316,5 @@ span{
 
 
 }
+
 
