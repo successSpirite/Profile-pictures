@@ -24,7 +24,7 @@ body{
     height: 3em;
     background-color: #000;
      background-image: linear-gradient(to right, #3ab5b0 0%, #3d99be 31%, #56317a 100%);
-     z-index: 1;
+     z-index: 999;
 }
 .Nav .profile{
     width: 2.4em ;
@@ -67,7 +67,7 @@ body{
     justify-content: center;
     align-items: center;
     animation: slid-in 6s ease-in-out;
-    
+    z-index: 2;    
 }
 .Bar .BarImg{
     display: flex;
@@ -313,5 +313,6 @@ span{
         top: 30%;
         width: 90%;
     }
+
 
 }
